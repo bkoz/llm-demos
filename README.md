@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 Run the notebooks in order.
 
-`01-chat-llama.ipynb` - A simple chatbot that interacts with a LLM via
+`01-chat-llama.ipynb` - A simple chatbot that interacts with an LLM via
 an OpenAI compatible python SDK.
 
 `02-basic-weaviate.ipynb` - A simple RAG application that imports 1000 Jeopardy
@@ -39,3 +39,5 @@ summarize the results.
 
 If any code changes are made to the notebook after the gradio app is run, the notebook kernel
 will need to get restarted.
+
+
