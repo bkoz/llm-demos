@@ -11,8 +11,9 @@
 ### User Setup
 
 - Login as `user5`
-- Create and start a data science workbench using a small, minimal python 
+- Create and start a data science workbench named `llm-clients` using a small, minimal python 
 notebook image.
+- Clone this repo (`https://github.com/bkoz/llm-demos.git`)
 - Open a terminal within Jupyter and install the python requirements.
 
 ```bash
