@@ -35,4 +35,4 @@ with gr.Blocks() as demo:
     gr.Markdown("# Chat with Lllama3!")
     gr.ChatInterface(predict)
 
-demo.launch(server_name='0.0.0.0', server_port=8081, share=True)
+demo.launch(server_name='0.0.0.0', server_port=8080, share=True)
