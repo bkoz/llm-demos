@@ -32,7 +32,7 @@ def predict(message, history):
 
 with gr.Blocks() as demo:
 
-    gr.Markdown("# Chat with Lllama3!")
+    gr.Markdown("# Chat with an LLM!")
     gr.ChatInterface(predict)
 
 demo.launch(server_name='0.0.0.0', server_port=8080, share=True)
