@@ -29,4 +29,10 @@ summarize the results.
 If any code changes are made to the notebook after the gradio app is run, the notebook kernel
 will need to get restarted.
 
+### Build and run the standalone chat app.
 
+```bash
+oc new-project chat
+oc new-app python~https://github.com/bkoz/llm-demos --context-dir=/src --name=chat
+oc create route edge --service chat --insecure-policy='Redirect'
+```
